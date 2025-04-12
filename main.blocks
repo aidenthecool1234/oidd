@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="minecraftOnChat" id="#HmE[S^n(0p,w4;l+Ohb" x="148" y="-528"><mutation xmlns="http://www.w3.org/1999/xhtml" numargs="0"></mutation><value name="command"><shadow type="text" id="Y.Gh_HtWkQ]6HN1w/34c"><field name="TEXT">a.i.d.e.n p.l.a.y.s</field></shadow></value><statement name="HANDLER"><block type="minecraft_pixel_art_draw_image" id="cqwgO.LG7`Lf=~x9s(X~"><field name="direction">CompassDirection.West</field><value name="image"><shadow type="minecraft_pixel_art_sprite_image" id="SNsMr]=qKhOVlx3-VGQu"><field name="img">img`
+. . . . . 7 7 7 7 7 7 7 . . . . 
+. . . . . 7 7 7 7 7 7 7 . . . . 
+. . . . . 7 7 7 7 7 7 7 . . . . 
+. . . . . 7 7 7 7 7 7 7 . . . . 
+. . . . . 7 7 7 7 7 7 7 . . . . 
+. . 8 8 8 8 8 8 8 8 8 8 8 8 . . 
+. . 8 8 8 8 8 8 8 8 8 8 8 8 . . 
+. . 7 7 8 8 8 8 8 8 8 8 7 7 . . 
+. . 7 7 8 8 8 8 8 8 8 8 7 7 . . 
+. . 7 7 8 8 8 8 8 8 8 8 7 7 . . 
+. . . . 9 9 9 f f 9 9 9 . . . . 
+. . . . 9 9 9 f f 9 9 9 . . . . 
+. . . . 9 9 9 f f 9 9 9 . . . . 
+. . . . 9 9 9 f f 9 9 9 . . . . 
+. . . . 9 9 9 f f 9 9 9 . . . . 
+. . . . 9 9 9 f f 9 9 9 . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="position"><shadow type="minecraftCreatePosition" id="epxD7)j0q62/}tVPk`%c"><value name="x"><shadow type="math_number" id="T*+!#H`%U5k2Ap!C,;.e"><field name="NUM">0</field></shadow></value><value name="y"><shadow type="math_number" id="@psw+@9U$7s,~zJyEn@i"><field name="NUM">0</field></shadow></value><value name="z"><shadow type="math_number" id="izbcLs^)ZXJ`D^oonO@k"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="minecraft_pixel_art_draw_image" id="XtN,})r0$PMLAH%,8NQi"><field name="direction">CompassDirection.West</field><value name="image"><shadow type="minecraft_pixel_art_sprite_image" id="[ToJw?Vv5H52K`^D_|w1"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+d d . . . d d . d d d . . . . . 
+d . d . d . d . d . . . . . . . 
+d . . d . . d . d . . . . . . . 
+d . . . . . d . d d d . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="position"><shadow type="minecraftCreatePosition" id="N]m]TbLAznvRbWO}LmT7"><value name="x"><shadow type="math_number" id="eSRPu)xw;58Mqq.B#.@2"><field name="NUM">0</field></shadow></value><value name="y"><shadow type="math_number" id="wQ8gUeY9i+^vuXOQlp7j"><field name="NUM">0</field></shadow></value><value name="z"><shadow type="math_number" id="OF+ucy`0^Q/87d^#B+.Y"><field name="NUM">0</field></shadow></value></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="_tgd?J_Z+dWZTGWqm@2[" x="0" y="0"><statement name="HANDLER"><block type="minecraft_music_play_note" id="cMt;K#gv^lTsqQ%XJVb$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="note"><shadow type="minecraft_note_frequency" id="%.oIDKpi9XRLu1orT%A?"><field name="note">262</field></shadow></value><value name="instrument"><shadow type="minecraft_instrument" id="ES`@[5dVN]qT`gZE^ZsG"><field name="name">Instrument.Pling</field></shadow></value><value name="millis"><shadow type="sound_beat" id="2EQT_pMk$vO~nZj:!)bu"><field name="fraction">BeatFraction.Sixteenth</field></shadow></value></block></statement></block><block type="minecraftOnItemInteracted" id=":Cos1%ymA0U(/qMZVydW" x="98" y="139"><value name="item"><shadow type="minecraftItem" id="6-yQ[`H[9:!XfpJAB,!D"><field name="item">Item.StoneSword</field></shadow></value><statement name="HANDLER"><block type="minecraftPlace" id="s;vRNmcv{nll@:{H1BIB"><value name="block"><shadow type="minecraftBlock" id="R;96gva*76MVwZwM2)GB"><field name="block">Block.Lava</field></shadow></value><value name="pos"><shadow type="minecraftCreatePosition" id="[-w+5c0(QEjC,HkPSXCv"><value name="x"><shadow type="math_number" id="NjsP-On_V:%khSBt+d-2"><field name="NUM">0</field></shadow></value><value name="y"><shadow type="math_number" id="8YzDUsLBzETXxU,*};kz"><field name="NUM">0</field></shadow></value><value name="z"><shadow type="math_number" id="$q[GID-2f94DaHl~|Y~*"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="minecraftSummon" id="y/OC6s*[`y$sTQ@x4)DV"><value name="entity"><shadow type="minecraftAnimal" id="}tnl6deTI+c0AJm)Ao:a"><field name="name">AnimalMob.Pig</field></shadow></value><value name="destination"><shadow type="minecraftCreatePosition" id="I!=S~4drX;V(~5+uRDWS"><value name="x"><shadow type="math_number" id="C*E7MIndKJL(e`[Kh$E/"><field name="NUM">0</field></shadow></value><value name="y"><shadow type="math_number" id="GCUFp^[De%{@F!Wo-xdg"><field name="NUM">0</field></shadow></value><value name="z"><shadow type="math_number" id="8R?IT[}8,E~JdWIZ[g~5"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="minecraftTell" id="yq5NGX_:/IhB16VWFGq-"><value name="target"><shadow type="minecraftTarget" id="ahU,#0ln`@ZyDikBQ@5L"><field name="kind">TargetSelectorKind.MyAgent</field></shadow></value><value name="message"><shadow type="text" id="|)-1-.VU,XI]UkB0/Fr]"><field name="TEXT">/kill @p</field></shadow></value><next><block type="minecraftAgentCollect" id="EzAI|,7Tu`ns58*9-(M}"><value name="block"><shadow type="minecraftItem" id="q*`D}xWA%6D*VBx#2?=N"><field name="item">Item.GoldIngot</field></shadow></value><next><block type="rcbSetBaseBlock" id="3tQB1qZq2W:[w#8o56ER"><value name="blockType"><shadow type="minecraftBlock" id="[%O[Pw;rW+gJGNx!P#vR"><field name="block">Block.Grass</field></shadow></value><next><block type="mob_events_ZombiePigman" id="xiXm^n{6kUVapYKUjj5n"><field name="command">mobEvents.ZombiePigman.BecomeAngry</field><value name="selector"><shadow type="mob_events_create_selector" id="McC7cY{H^/@McUJbkVos"></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="ou{9{Z$[qz;g+tV-yV1+" x="-95" y="512"><statement name="HANDLER"><block type="mob_events_Wolf" id="nc4gI8FjN0,F#XFXv7Ze"><field name="command">mobEvents.Wolf.BecomeTame</field><value name="selector"><shadow type="mob_events_create_selector" id="2+gQd*AUfBW25#,{{L4Y"></shadow></value></block></statement></block></xml>
